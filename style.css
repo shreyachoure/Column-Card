@@ -7,6 +7,7 @@
     --gray: hsl(0, 0%, 95%);
 }
 body {
+    margin: 0;
     background-color: var(--gray);
 }
 
@@ -20,10 +21,11 @@ h1 {
 }
 p {
     color: var(--paragraphs);
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Lexend Deca';
     width: 90%;
     line-height: 1.5rem;
+    text-align: left;
 }
 
 button {
@@ -70,19 +72,23 @@ button {
 }
 @media screen and (min-width: 1025px){
     .container {
+        width: 80%;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 }
-@media screen and (min-width: 321px) and (max-width: 1024px) {
+@media screen  and (max-width: 1024px) {
     
     .cars {
+        margin-top: 50px;
+        margin-bottom: 50px;
         flex-direction: column;
-        width: 80%;
         margin-left: auto;
         margin-right: auto;
+        width: 85%;
+        
     }
     button {
         margin-top: 30px;
