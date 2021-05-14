@@ -73,7 +73,7 @@ button {
 @media screen and (min-width: 321px) and (max-width: 1024px) {
     .cars {
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
