@@ -7,7 +7,7 @@
     --gray: hsl(0, 0%, 95%);
 }
 body {
-    background-color: var(--paragraphs);
+    background-color: var(--gray);
 }
 
 h1 {
@@ -46,7 +46,6 @@ button {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin-top: 10px;
 
     
 }
